@@ -343,7 +343,7 @@
                             <span>&nbsp;Voir sur linkedin</span>
                         </a>
 
-                        <a class="buttonLink" href="pdf/cpasencorefait.pdf" target="_blank">
+                        <a class="buttonLink" href="pdf/DocUtilisateurPrimaSTEM.pdf" target="_blank">
                             <i class="bi bi-file-earmark-text"></i>
                             <span>&nbsp;Rapport de stage</span>
                         </a>
@@ -778,7 +778,7 @@
 
                         <form action="https://formsubmit.co/mathisperot420@gmail.com" method="post">
                             <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="http://portfolio-mp.local">
+                            <input type="hidden" name="_next" value="https://mathis-dev.fr">
                             <div class="row">
                                 <div class="col-md-6">
                                     <label for="name">Votre Nom</label>
