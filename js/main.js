@@ -324,12 +324,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Récupération des valeurs
             const name = document.querySelector("#name").value.trim();
-            const email = document.querySelector("input[name='email']").value.trim();
+            const prenom = document.querySelector("#prenom").value.trim();
+            const email = document.querySelector("#email").value.trim();
             const subject = document.querySelector("#subject").value.trim();
             const message = document.querySelector("#message").value.trim();
 
             // Validation des champs
-            if (!name || !email || !subject || !message) {
+            if (!name || !prenom || !email || !subject || !message) {
                 alert("Veuillez remplir tous les champs obligatoires.");
                 return;
             }

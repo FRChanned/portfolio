@@ -774,7 +774,7 @@
                                 </div>
                             </div>
                             <label>Votre email</label>
-                            <input type="email" name="email" placeholder="Entrez votre email" required><br>
+                            <input type="email" id="email" name="email" placeholder="Entrez votre email" required><br>
                             <label for="subject">Sujet*</label>
                             <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
                             <label for="message">Votre Message*</label>
