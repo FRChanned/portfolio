@@ -776,7 +776,7 @@
                             <label>Votre email</label>
                             <input type="email" name="email" placeholder="Entrez votre email" required><br>
                             <label for="subject">Sujet*</label>
-                            <input type="text" id="subject" placeholder="Sujet de votre message" required>
+                            <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
                             <label for="message">Votre Message*</label>
                             <textarea id="message" rows="5" name="message" placeholder="Votre message ici..." required></textarea><br>
                             <input type="submit" id="submitButton">
