@@ -373,12 +373,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: row;
-    /* Disposition horizontale */
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     margin: 20px;
     width: 71.563rem;
-    /* Valeur fixe pour grand écran, remplacée en responsive */
 }
 
 /* Informations supplémentaires cachées */
