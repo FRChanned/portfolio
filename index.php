@@ -419,58 +419,48 @@
             <h2>Mes projets professionnels et personnels</h2>
             <hr>
             <header>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-4">
-                            <a class="buttonLink" href="pdf/tableauSynthese.pdf" target="_blank">
-                                <i class="bi bi-file-earmark"></i>
-                                <span>&nbsp;Voir la grille de compétences</span>
-                            </a>
-                        </div>
-                        <div class="col-8 d-flex justify-content-end">
-                            <nav class="navProjets">
-                                <ul class="listeProjets bg-white border px-4 py-2">
-                                    <li class="elemProjet"><a class="linkProjet allProjects">Tout mes projets</a></li>
-                                    <li class="elemProjet"><a class="linkProjet devWeb">Développement Web</a></li>
-                                    <li class="elemProjet"><a class="linkProjet devApp">Développement Application</a></li>
-                                    <li class="elemProjet"><a class="linkProjet other">Autre</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
+                <div class="container btnMenuWrapper">
+                    <a class="buttonLink" href="pdf/tableauSynthese.pdf" target="_blank">
+                        <i class="bi bi-file-earmark"></i>
+                        <span>&nbsp;Voir la grille de compétences</span>
+                    </a>
+                    <nav class="navProjets">
+                        <ul class="listeProjets bg-white border px-4 py-2">
+                            <li class="elemProjet"><a class="linkProjet allProjects">Tout mes projets</a></li>
+                            <li class="elemProjet"><a class="linkProjet devWeb">Développement Web</a></li>
+                            <li class="elemProjet"><a class="linkProjet devApp">Développement Application</a></li>
+                            <li class="elemProjet"><a class="linkProjet other">Autre</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
 
             <section class="content devWeb">
                 <h2>Développement Web</h2>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="cardProj">
-                                <p>AP 3 : Publicom</p>
-                                <img src="img/logos/brave_1MXCg2pfsE.png" class="imgCertif-fluid">
-                                <a class="buttonLink" href="pdf/Documentation Technique Publicom.pdf" target="_blank">
-                                    <i class="bi bi-file-earmark"></i>
-                                    <span>&nbsp;Voir le PDF</span>
-                                </a>
-                            </div>
+                    <div class="cardProj">
+                        <p>AP 3 : Publicom</p>
+                        <img src="img/logos/brave_1MXCg2pfsE.png" class="imgCertif-fluid">
+                        <div class="buttonCardProj">
+                            <a class="buttonLink" href="pdf/Documentation Technique Publicom.pdf" target="_blank">
+                                <i class="bi bi-file-earmark"></i>
+                                <span>&nbsp;Voir le PDF</span>
+                            </a>
                         </div>
-                        <div class="col-md-4">
-                            <div class="cardProj">
-                                <p>PrimaSTEM</p>
-                                <img src="img/logos/channels4_profile.jpg" class="imgCertif-fluid">
-                                <a class="buttonLink" href="pdf/Doc Utilisateur PrimaSTEM Backoffice.pdf" target="_blank">
-                                    <i class="bi bi-file-earmark"></i>
-                                    <span>&nbsp;Voir le PDF</span>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="cardProj">
+                        <p>PrimaSTEM</p>
+                        <img src="img/logos/channels4_profile.jpg" class="imgCertif-fluid">
+                        <div class="buttonCardProj">
+                            <a class="buttonLink" href="pdf/Doc Utilisateur PrimaSTEM Backoffice.pdf" target="_blank">
+                                <i class="bi bi-file-earmark"></i>
+                                <span>&nbsp;Voir le PDF</span>
+                            </a>
                         </div>
-                        <div class="col-md-4">
-                            <div class="cardProj" id="reqajax">
-                                <p>Requêtes AJAX</p>
-                                <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
-                            </div>
-                        </div>
+                    </div>
+                    <div class="cardProj" id="reqajax">
+                        <p>Requêtes AJAX</p>
+                        <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
                     </div>
                 </div>
             </section>
@@ -478,52 +468,46 @@
             <section class="content devApp">
                 <h2>Développement Application</h2>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="cardProj" id="ap4proj">
-                                <p>AP 4 : Client Lourd en Java</p>
-                                <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
-                                <a class="buttonLink" href="pdf/Rapport Amset AP4.pdf" target="_blank">
-                                    <i class="bi bi-file-earmark"></i>
-                                    <span>&nbsp;Voir le PDF</span>
-                                </a>
-                            </div>
+                    <div class="cardProj" id="ap4proj">
+                        <p>AP 4 : Client Lourd en Java</p>
+                        <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
+                        <div class="buttonCardProj">
+                            <a class="buttonLink" href="pdf/Rapport Amset AP4.pdf" target="_blank">
+                                <i class="bi bi-file-earmark"></i>
+                                <span>&nbsp;Voir le PDF</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </section>
-
             <section class="content other">
                 <h2>Autre projets</h2>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="cardProj">
-                                <p>GLPI : Gestion d'un parc informatique</p>
-                                <img src="img/logos/GLPI_Logo-color.png" class="imgCertif-fluid">
-                                <a class="buttonLink" id="openPdf" href="pdf/Mission GLPI 1 - gestion de parc.pdf" target="_blank">
-                                    <i class="bi bi-file-earmark"></i>
-                                    <span>&nbsp;Voir le PDF</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="cardProj">
-                                <p>Réplication de Base de Données avec Azure</p>
-                                <img src="img/logos/MS-Azure_logo_stacked_c-gray_rgb.png" class="imgCertif-fluid">
-                                <a class="buttonLink" href="pdf/Réplication MariaDB sur AZURE.pdf" target="_blank">
-                                    <i class="bi bi-file-earmark"></i>
-                                    <span>&nbsp;Voir le PDF</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="cardProj" id="">
-                                <p>AP 4 : Client Lourd en Java</p>
-                                <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
-                            </div>
+                    <div class="cardProj">
+                        <p>GLPI : Gestion d'un parc informatique</p>
+                        <img src="img/logos/GLPI_Logo-color.png" class="imgCertif-fluid">
+                        <div class="buttonCardProj">
+                            <a class="buttonLink" id="openPdf" href="pdf/Mission GLPI 1 - gestion de parc.pdf" target="_blank">
+                                <i class="bi bi-file-earmark"></i>
+                                <span>&nbsp;Voir le PDF</span>
+                            </a>
                         </div>
                     </div>
+                    <div class="cardProj">
+                        <p>Réplication de Base de Données avec Azure</p>
+                        <img src="img/logos/MS-Azure_logo_stacked_c-gray_rgb.png" class="imgCertif-fluid">
+                        <div class="buttonCardProj">
+                            <a class="buttonLink" href="pdf/Réplication MariaDB sur AZURE.pdf" target="_blank">
+                                <i class="bi bi-file-earmark"></i>
+                                <span>&nbsp;Voir le PDF</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cardProj" id="">
+                        <p>AP 4 : Client Lourd en Java</p>
+                        <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
+                    </div>
+
                 </div>
             </section>
         </section>

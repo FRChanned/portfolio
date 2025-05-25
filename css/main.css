@@ -301,6 +301,20 @@ body {
     flex-wrap: wrap;
 }
 
+.buttonMenuWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.buttonLink,
+.navProjets {
+    width: 100%;
+}
+
 .button,
 .buttonLink {
     flex: 1;
@@ -318,10 +332,8 @@ body {
     border: none;
     cursor: pointer;
     min-width: 180px;
-}
-
-.buttonLink {
-    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .button:hover,
@@ -439,9 +451,18 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     margin: 20px;
     width: 15rem;
+    height: 100%;
+    min-height: 350px;
+}
+
+.buttonCardProj {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
 }
 
 /* MAP */
