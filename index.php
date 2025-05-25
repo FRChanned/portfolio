@@ -219,7 +219,7 @@
                     <p>Gitbash</p>
                 </div>
                 <div class="card">
-                    <img src="img/logos/Microsoft_Word_2013-2019_logo.svg" alt="MS Word">
+                    <img src="img/logos/Microsoft_Word_2013-2019_logo.png" alt="MS Word">
                     <p>Word</p>
                 </div>
                 <div class="card">
