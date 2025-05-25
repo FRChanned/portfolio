@@ -19,7 +19,7 @@ body {
 #accueil {
     width: 100%;
     height: 100vh;
-    background: url(../img/tempMainBg.gif) top center;
+    background: url(../img/mainBg.gif) top center;
     background-size: cover;
     color: #fff;
 }
