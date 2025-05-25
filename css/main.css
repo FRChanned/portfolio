@@ -126,10 +126,20 @@ body {
 }
 
 /* CONTENEURS & CARTES */
-.container {
+.container,
+.containerProj,
+.containerAbilities,
+.containerCertif {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.containerAccount {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cardAboutMe,
@@ -456,6 +466,21 @@ body {
     width: 15rem;
     height: 100%;
     min-height: 350px;
+}
+
+.cardAccount {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 15rem;
+    height: 100%;
 }
 
 .buttonCardProj {

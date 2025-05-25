@@ -99,7 +99,7 @@
             <p class="fs-3">Mes compétences en développement</p>
             <p>J'ai pu acquérir plusieurs compétences de développement, voici les différentes matières que je maîtrise.</p>
 
-            <div class="container">
+            <div class="containerAbilities">
                 <div class="card">
                     <img src="img/logos/HTML5_logo_and_wordmark.svg.png" alt="HTML">
                     <p>HTML</p>
@@ -129,7 +129,7 @@
             <p class="fs-3">Outils Utilisés</p>
             <p>Grâce à ces outils, j'ai pu pratiquer et raffiner les connaissances acquises en cours.</p>
             <p class="fs-4">Programmation / Développement</p>
-            <div class="container">
+            <div class="containerAbilities">
                 <div class="card">
                     <img src="img/logos/Visual_Studio_Code_1.35_icon.svg.png" alt="VSCode">
                     <p>Visual Studio Code</p>
@@ -149,7 +149,7 @@
             </div>
             <br>
             <p class="fs-4">Gestion de Données</p>
-            <div class="container">
+            <div class="containerAbilities">
                 <div class="card">
                     <img src="img/logos/PhpMyAdmin_logo.svg.png" alt="PHP">
                     <p>phpMyAdmin</p>
@@ -165,7 +165,7 @@
             </div>
             <br>
             <p class="fs-4">Réseaux et Virtualisation</p>
-            <div class="container">
+            <div class="containerAbilities">
                 <div class="card">
                     <img src="img/logos/proxmox.png" alt="Proxmox">
                     <p>Proxmox</p>
@@ -193,7 +193,7 @@
             </div>
             <br>
             <p class="fs-4">Systèmes d'exploitations utilisés</p>
-            <div class="container">
+            <div class="containerAbilities">
                 <div class="card">
                     <img src="img/logos/Windows_logo_-_2012.svg.png" alt="Windows">
                     <p>Windows 10 et 11</p>
@@ -209,7 +209,7 @@
             </div>
             <br>
             <p class="fs-4">Autre</p>
-            <div class="container">
+            <div class="containerAbilities">
                 <div class="card">
                     <img src="img/logos/Octicons-mark-github.svg" alt="Github">
                     <p>Github</p>
@@ -305,7 +305,7 @@
             <br>
             <p class="fs-3">Certifications Obtenues</p>
             <p>J'ai pu obtenir ces certifications durant mes études au lycée et en BTS. Ces certifications permettent de certifier mes connaissances acquises lors de mes études.</p>
-            <div class="container">
+            <div class="containerCertif">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="cardCertif" id="certif1">
@@ -419,7 +419,7 @@
             <h2>Mes projets professionnels et personnels</h2>
             <hr>
             <header>
-                <div class="container btnMenuWrapper">
+                <div class="containerProj btnMenuWrapper">
                     <a class="buttonLink" href="pdf/tableauSyntheseFinal.pdf" target="_blank">
                         <i class="bi bi-file-earmark"></i>
                         <span>&nbsp;Voir la grille de compétences</span>
@@ -437,7 +437,7 @@
 
             <section class="content devWeb">
                 <h2>Développement Web</h2>
-                <div class="container">
+                <div class="containerProj">
                     <div class="cardProj">
                         <p>AP 3 : Publicom</p>
                         <img src="img/logos/brave_1MXCg2pfsE.png" class="imgCertif-fluid">
@@ -467,7 +467,7 @@
 
             <section class="content devApp">
                 <h2>Développement Application</h2>
-                <div class="container">
+                <div class="containerProj">
                     <div class="cardProj" id="ap4proj">
                         <p>AP 4 : Client Lourd en Java</p>
                         <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
@@ -482,7 +482,7 @@
             </section>
             <section class="content other">
                 <h2>Autre projets</h2>
-                <div class="container">
+                <div class="containerProj">
                     <div class="cardProj">
                         <p>GLPI : Gestion d'un parc informatique</p>
                         <img src="img/logos/GLPI_Logo-color.png" class="imgCertif-fluid">
@@ -737,6 +737,33 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <p class="fs-4">Comptes à suivre : </p>
+            <div class="containerAccount">
+                <div class="cardAccount">
+                    <p class="fs-5"><i class="bi bi-twitter-x"></i>&nbsp;Twitter / X</p>
+                    <ul>
+                        <li><a href="https://x.com/forrestbrazeal" target="_blank">Forrest Brazeal</a></li>
+                        <li><a href="https://x.com/awscloud" target="_blank">Amazon Web Services</a></li>
+                        <li><a href="https://x.com/Azure" target="_blank">Microsoft Azure</a></li>
+                    </ul>
+                </div>
+                <div class="cardAccount">
+                    <p class="fs-5"><i class="bi bi-linkedin"></i>&nbsp;Linkedin</p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/groups/45151/" target="_blank">Cloud Computing, SaaS, Data Centre & Virtualization</a></li>
+                        <li><a href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-borgne-1b13115/" target="_blank">Frédéric Borgne</a></li>
+                        <li><a href="https://www.linkedin.com/in/guthriescott/" target="_blank">Scott Guthrie</a></li>
+                    </ul>
+                </div>
+                <div class="cardAccount">
+                    <p class="fs-5"><i class="bi bi-youtube"></i>&nbsp;Chaines YouTube</p>
+                    <ul>
+                        <li><a href="https://www.youtube.com/c/AmazonWebServices" target="_blank">Amazon Web Services</a></li>
+                        <li><a href="https://www.youtube.com/@freecodecamp" target="_blank">Freecodecamp</a></li>
+                        <li><a href="https://www.youtube.com/@academind" target="_blank">Academind</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
