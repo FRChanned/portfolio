@@ -314,6 +314,58 @@ ap4proj.onclick = function () {
     });
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("#contact form");
+    const submitButton = document.querySelector("#submitButton");
+
+    if (form && submitButton) {
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            // Récupération des valeurs
+            const name = document.querySelector("#name").value.trim();
+            const email = document.querySelector("input[name='email']").value.trim();
+            const subject = document.querySelector("#subject").value.trim();
+            const message = document.querySelector("#message").value.trim();
+
+            // Validation des champs
+            if (!name || !email || !subject || !message) {
+                alert("Veuillez remplir tous les champs obligatoires.");
+                return;
+            }
+
+            if (!validateEmail(email)) {
+                alert("Veuillez entrer une adresse email valide.");
+                return;
+            }
+
+            submitButton.disabled = true;
+            submitButton.value = "Envoi en cours...";
+
+            setTimeout(() => {
+
+                // Soumet le formulaire
+                form.submit();
+                form.reset(); // Réinitialise le formulaire
+
+
+                alert("Votre email a bien été envoyé !");
+            }, 2000);
+
+
+        });
+    } else {
+        console.error("Formulaire ou bouton d'envoi introuvable !");
+    }
+
+    // Vérifie si l'email est valide
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+});
+
 /* Event listener permettant que le menu d'oeuvres marche
 */
 
