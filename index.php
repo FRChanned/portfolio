@@ -420,7 +420,7 @@
             <hr>
             <header>
                 <div class="container btnMenuWrapper">
-                    <a class="buttonLink" href="pdf/tableauSynthese.pdf" target="_blank">
+                    <a class="buttonLink" href="pdf/tableauSyntheseFinal.pdf" target="_blank">
                         <i class="bi bi-file-earmark"></i>
                         <span>&nbsp;Voir la grille de compétences</span>
                     </a>
