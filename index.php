@@ -82,7 +82,7 @@
                             gestion de solutions logicielles, formant les étudiants de manière efficace aux professions du développement informatique et leur
                             permettant de répondre aux exigences spécifiques des entreprises en ce qui concerne les systèmes d'information.
                         </p>
-
+                        <p>Source : <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">Onisep</a></p>
                     </div>
                     <div class="col-md-6">
                         <p class="fs-4 text-center">Option SISR <i class="bi bi-router"></i></p>
@@ -91,6 +91,7 @@
                             dans la gestion et la sécurisation des systèmes et réseaux, répondant ainsi aux besoins grandissants de fiabilité et d'efficacité
                             des infrastructures informatiques au sein des organisations.
                         </p>
+                        <p>Source : <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-a-solutions-d-infrastructure-systemes-et-reseaux">Onisep</a></p>
                     </div>
                 </div>
             </div>
