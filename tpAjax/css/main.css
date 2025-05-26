@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #aaa;
+    font-family: Verdana;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    height: 5%;
+    padding: 0 10px;
+}
+
+
+select,
+select:focus {
+    background-color: #fff;
+    font-size: 1em;
+    width: 25%;
+}
+
+#content {
+    display: flex;
+    height: 95%;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#liste {
+    padding: 0 10px 0 0;
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+}
+
+#attente {
+    display: none;
+    font-size: 1.8em;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: rgb(186, 74, 74);
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.producteur,
+#info {
+    background-color: #505050;
+    color: #fff;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 5px solid #d6d6d6;
+    border-radius: 9px;
+}
+
+.producteur:hover {
+    cursor: pointer;
+    background-color: #323232;
+    border-color: #fff;
+}
+
+#info {
+    width: 75%;
+    height: 100%;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#details {
+    height: 30%;
+}
+
+#map {
+    height: 70%;
+}
+
+a.btn {
+    margin: 0 1em 0 0;
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: #000;
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    /* color: #ddd; */
+    background-color: #ccc;
+}

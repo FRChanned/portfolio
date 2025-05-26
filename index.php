@@ -338,7 +338,7 @@
                             <span>&nbsp;Voir sur la carte</span>
                         </button>
 
-                        <a class="buttonLink" href="">
+                        <a class="buttonLink" href="https://www.linkedin.com/company/d-n-m-digital-network-marketing/" target="_blank">
                             <i class="bi bi-linkedin"></i>
                             <span>&nbsp;Voir sur linkedin</span>
                         </a>
@@ -458,9 +458,15 @@
                             </a>
                         </div>
                     </div>
-                    <div class="cardProj" id="reqajax">
+                    <div class="cardProj">
                         <p>Requêtes AJAX</p>
-                        <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
+                        <img src="img/logos/ajax.png" class="imgCertif-fluid">
+                        <div class="buttonCardProj">
+                            <a class="buttonLink" href="tpAjax/index.htm" target="_blank">
+                                <i class="bi bi-gear-fill"></i>
+                                <span>&nbsp;Tester le projet</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -503,11 +509,16 @@
                             </a>
                         </div>
                     </div>
-                    <div class="cardProj" id="">
-                        <p>AP 4 : Client Lourd en Java</p>
-                        <img src="img/AP 4/miniaProj.png" class="imgCertif-fluid">
+                    <div class="cardProj">
+                        <p>PGAdmin : Gestion de Base de Données avec PostgreSQL</p>
+                        <img src="img/logos/Postgresql_elephant.png" class="imgCertif-fluid">
+                        <div class="buttonCardProj">
+                            <button type="button" id="tpPostgre" class="button">
+                                <i class="bi bi-file-earmark"></i>
+                                <span>&nbsp;Voir les PDF</span>
+                            </button>
+                        </div>
                     </div>
-
                 </div>
             </section>
         </section>

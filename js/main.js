@@ -234,6 +234,75 @@ rapportTermButton.onclick = function () {
     });
 };
 
+tpPostgre.onclick = function () {
+    let divModal = document.createElement('div');
+    divModal.className = 'modal fade';
+    divModal.id = 'exampleModal';
+    divModal.tabIndex = -1;
+    divModal.setAttribute('aria-labelledby', 'exampleModalLabel');
+    divModal.setAttribute('aria-hidden', 'true');
+
+    let divModalDialog = document.createElement('div');
+    divModalDialog.className = 'modal-dialog modal-lg';
+
+    let divModalContent = document.createElement('div');
+    divModalContent.className = 'modal-content';
+
+    let divModalHeader = document.createElement('div');
+    divModalHeader.className = 'modal-header';
+
+    let headerModalTitle = document.createElement('h1');
+    headerModalTitle.className = 'modal-title fs-5';
+    headerModalTitle.id = 'exampleModalLabel';
+    headerModalTitle.textContent = 'Deux TP sur PostgreSQL';
+
+    let buttonClose = document.createElement('button');
+    buttonClose.type = 'button';
+    buttonClose.className = 'btn-close';
+    buttonClose.setAttribute('data-bs-dismiss', 'modal');
+    buttonClose.setAttribute('aria-label', 'Close');
+
+    let divModalBody = document.createElement('div');
+    divModalBody.className = 'modal-body';
+
+    let pModalBody = document.createElement('p');
+    pModalBody.textContent = 'Voici mes TP sur lequel j\'ai pu pratiquer et découvrir PostgreSQL';
+
+    let divButtonsRapport = document.createElement('div');
+    divButtonsRapport.className = 'buttonContainer';
+
+    let buttonRapportTerminale = document.createElement('a');
+    buttonRapportTerminale.className = 'button';
+    buttonRapportTerminale.href = 'pdf/TP Initiation PostgreSQL - Mathis PEROT.pdf';
+    buttonRapportTerminale.target = '_blank';
+    buttonRapportTerminale.textContent = 'TP d\'initiation à PostgreSQL';
+
+    let buttonRapportBTS1 = document.createElement('a');
+    buttonRapportBTS1.className = 'button';
+    buttonRapportBTS1.href = 'pdf/TP 4 Postgres 2020 - Mathis PEROT.pdf';
+    buttonRapportBTS1.target = '_blank';
+    buttonRapportBTS1.textContent = 'TP Programmation avec PostgreSQL   ';
+
+    document.body.prepend(divModal);
+    divModal.append(divModalDialog);
+    divModalDialog.append(divModalContent);
+    divModalContent.append(divModalHeader);
+    divModalContent.append(divModalBody);
+    divModalHeader.append(headerModalTitle);
+    divModalHeader.append(buttonClose);
+    divModalBody.append(pModalBody);
+    divModalBody.append(divButtonsRapport);
+    divButtonsRapport.append(buttonRapportTerminale);
+    divButtonsRapport.append(buttonRapportBTS1);
+
+    let modalCertif = new bootstrap.Modal(divModal);
+    modalCertif.show();
+
+    divModal.addEventListener('hidden.bs.modal', function () {
+        divModal.remove();
+    });
+};
+
 ap4proj.onclick = function () {
     let divModal = document.createElement('div');
     divModal.className = 'modal fade';
