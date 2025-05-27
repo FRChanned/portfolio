@@ -584,7 +584,7 @@
             <p class="fs-4">Thème 2 : 3 Types de services fournis par le Cloud Computing</p>
             <div class="container">
                 <div class="cardParcours">
-                    <h4 class="text-center"> En général, les founisseurs de services via le cloud divisent leurs offres en quatre groupes principaux : </h4>
+                    <h4 class="text-center"> En général, les founisseurs de services via le cloud divisent leurs offres en trois groupes principaux : </h4>
                     <br>
                     <ul>
                         <li>
