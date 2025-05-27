@@ -135,6 +135,13 @@ body {
     flex-wrap: wrap;
 }
 
+.containerCV {
+    display: flex;
+    gap : 5px;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
 .containerAccount {
     display: flex;
     gap: 20px;

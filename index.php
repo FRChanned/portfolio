@@ -61,7 +61,10 @@
                     mon parcours scolaire ainsi que différents projets que j'ai pu entreprendre pendant ma carrière, qu'ils soient personnels ou professionnels.
                 </p>
                 <p>Vous pourrez retrouver en cliquant sur le bouton ci-dessous mon CV.</p>
-                <a class="btn btn-primary downloadButton" href="downloadable/CV Mathis PEROT-PEREIRA.pdf" role="button" download=""><i class="bi bi-download"></i> Télécharger</a>
+                <div class="containerCV">
+                    <a class="btn btn-primary" href="downloadable/CV Mathis PEROT-PEREIRA.pdf" role="button" download=""><i class="bi bi-download"></i> Télécharger le CV</a>
+                    <a class="btn btn-primary" href="downloadable/CV Mathis PEROT-PEREIRA.pdf" role="button" target="_blank"><i class="bi bi-file-earmark"></i> Voir le CV</a>
+                </div>
             </div>
             <br>
             <br>
